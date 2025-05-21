@@ -1,0 +1,143 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cuerpo general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #006d3b;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #004d2c;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(21, 207, 4, 0.404);
+}
+
+main img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Figuras */
+figure {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #006d3b;
+  margin-bottom: 10px;
+}
+
+/* Formularios */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #006d3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #004d2c;
+}
+
+/* Listas */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  background-color: #006d3b;
+  color: white;
+  padding: 15px 0;
+  margin-top: 30px;
+  border-top: 3px solid #004d2c;
+}
+.logo {
+  position: absolute;
+  top: 7%;
+  right: 20px;
+  transform: translateY(-50%);
+  height: 60px;
+}
